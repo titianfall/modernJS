@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Node (Day 13 이후 Node.js 실습 시)
+node_modules/
+npm-debug.log*
+.env
