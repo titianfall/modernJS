@@ -4,7 +4,7 @@
 **JavaScript 언어편 전체**를 하루 1개 챕터 분량으로 쪼갠 학습 로드맵입니다.
 
 ## 📊 진행 현황
-> **1 / 60일 완료** (약 2%) — 방금 **Day 01** 완료! 🎉
+> **2 / 60일 완료** (약 3%) — 방금 **Day 02** 완료! 🎉
 
 ## 🗂️ 디렉토리 구조
 챕터(파트)별로 폴더가 나뉘어 있습니다. 각 폴더 안에 해당 일차의 `.md` 파일이 들어있어요.
@@ -51,7 +51,7 @@ Javascript/
 | 일차 | 주제 | 완료 |
 |:----:|------|:----:|
 | Day 01 | [JavaScript 소개](01_fundamentals/Day01.md) | ✅ |
-| Day 02 | [Hello World & 코드 구조](01_fundamentals/Day02.md) | ☐ |
+| Day 02 | [Hello World & 코드 구조](01_fundamentals/Day02.md) | ✅ |
 | Day 03 | [변수와 상수](01_fundamentals/Day03.md) | ☐ |
 | Day 04 | [자료형](01_fundamentals/Day04.md) | ☐ |
 | Day 05 | [상호작용 & 형 변환](01_fundamentals/Day05.md) | ☐ |
