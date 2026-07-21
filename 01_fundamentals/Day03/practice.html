@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>Day 03 — 변수와 상수 실습</title>
+    <meta charset="UTF-8">
+    <title>Day 03 — 변수와 상수 실습</title>
 </head>
 <body>
-  <h1>Day 03 — 변수와 상수</h1>
-  <p>👉 브라우저로 이 파일을 연 뒤 <b>F12 → Console</b> 탭에서 결과를 확인하세요.</p>
-  <p>📖 오늘의 노트: <code>README.md</code></p>
+    <h1>Day 03 — 변수와 상수</h1>
+    <p>👉 브라우저로 이 파일을 연 뒤 <b>F12 → Console</b> 탭에서 결과를 확인하세요.</p>
+    <p>📖 오늘의 노트: <code>README.md</code></p>
 
-  <script>
-    "use strict";
-    // ============================================
-    //  ✍️ 여기에 오늘 배운 내용을 직접 타이핑하며 실습하세요
-    // ============================================
+    <script>
+        "use strict";
+        // ============================================
+        //  ✍️ 여기에 오늘 배운 내용을 직접 타이핑하며 실습하세요
+        // ============================================
 
-    console.log("Day 03 — 변수와 상수 실습 시작!");
+        console.log("Day 03 — 변수와 상수 실습 시작!");
 
+        console.log("1. 변수 가지고 놀기");
+        // admin과 name 이라는 변수를 선언하세요.
+        let admin, name;
 
-  </script>
+        // name에 값으로 "John"을 할당해 보세요.
+        name = "John";
+
+        // name의 값을 admin에 복사해 보세요.
+        admin = name;
+
+        // admin의 값을 alert 창에 띄워보세요. "John"
+        alert(admin);
+        console.log(admin);
+
+        console.log("2. 올바른 이름 선택하기");
+        let outPlanetName = "earth";
+        let currentUserName = "John";
+
+        console.log("3. 대문자 상수 올바로 사용하기");
+        const BIRTHDAY = "18.04.1982"; // 하드코딩한 값 > 상수
+        let age = someCode(BIRTHDAY); // 런타임 평가 > 상수에 적합하지 않음
+        // practice.html:40 Uncaught ReferenceError: someCode is not defined
+    </script>
 </body>
 </html>

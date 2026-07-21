@@ -42,7 +42,7 @@ Javascript/
 |:----:|------|:----:|
 | Day 01 | [JavaScript 소개](01_fundamentals/Day01/README.md) | ✅ |
 | Day 02 | [Hello World & 코드 구조](01_fundamentals/Day02/README.md) | ✅ |
-| Day 03 | [변수와 상수](01_fundamentals/Day03/README.md) | ☐ |
+| Day 03 | [변수와 상수](01_fundamentals/Day03/README.md) | ✅ |
 | Day 04 | [자료형](01_fundamentals/Day04/README.md) | ☐ |
 | Day 05 | [상호작용 & 형 변환](01_fundamentals/Day05/README.md) | ☐ |
 | Day 06 | [기본 연산자](01_fundamentals/Day06/README.md) | ☐ |
