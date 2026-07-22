@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>Day 04 — 자료형 실습</title>
+    <meta charset="UTF-8">
+    <title>Day 04 — 자료형 실습</title>
 </head>
 <body>
-  <h1>Day 04 — 자료형</h1>
-  <p>👉 브라우저로 이 파일을 연 뒤 <b>F12 → Console</b> 탭에서 결과를 확인하세요.</p>
-  <p>📖 오늘의 노트: <code>README.md</code></p>
+    <h1>Day 04 — 자료형</h1>
+    <p>👉 브라우저로 이 파일을 연 뒤 <b>F12 → Console</b> 탭에서 결과를 확인하세요.</p>
+    <p>📖 오늘의 노트: <code>README.md</code></p>
 
-  <script>
-    "use strict";
-    // ============================================
-    //  ✍️ 여기에 오늘 배운 내용을 직접 타이핑하며 실습하세요
-    // ============================================
+    <script>
+        "use strict";
+        // ============================================
+        //  ✍️ 여기에 오늘 배운 내용을 직접 타이핑하며 실습하세요
+        // ============================================
 
-    console.log("Day 04 — 자료형 실습 시작!");
+        console.log("Day 04 — 자료형 실습 시작!");
+        let name = "Ilya";
 
+        // 표현식은 숫자 1입니다.
+        alert( `hello ${1}` ); // hello 1
 
-  </script>
+        // 표현식은 문자열 "name"입니다.
+        alert( `hello ${"name"}` ); // hello name
+
+        // 표현식 안에 변수가 들어가 있기 때문에, 이 변수가 평가되어 전체 문자열이 반환됩니다.
+        alert( `hello ${name}` ); // hello Ilya
+    </script>
 </body>
 </html>
