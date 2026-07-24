@@ -15,9 +15,55 @@
     //  ✍️ 여기에 오늘 배운 내용을 직접 타이핑하며 실습하세요
     // ============================================
 
+    // <script src = "operator.js"/>
     console.log("Day 06 — 기본 연산자 실습 시작!");
+    console.log("1. 전위형과 후위형");
+    let a = 1, b = 1;
 
+    let c = ++a; // 2
+    let d = b++; // 1
+    // 2, 2, 2, 1
 
+    console.log("2. 할당 후 결과 예측하기");
+    let a2 = 2;
+    let x = 1 + (a2 *= 2);
+    console.log(x); // 5
+
+    console.log("3. 형 변환");
+    console.log("" + 1 + 0); // "10"
+    console.log("" - 1 + 0); // -1
+    console.log(true + false); // 1 + 0 = 1
+    console.log(6 / "3"); // 2
+    console.log("2" * "3"); // 6
+    console.log(4 + 5 + "px"); // 9px
+    console.log("$" + 4 + 5); // "$45"
+    console.log("4" - 2); // 2
+    console.log("4px" - 2); // NaN
+    console.log(7 / 0); // Infinity
+    console.log("  -9  " + 5); // "   -9  5"
+    console.log("  -9  " - 5); // -14
+    console.log(null + 1); // null(0) + 1 = 1
+    console.log(undefined + 1); // Number(undefined) > NaN
+    // 문자열 > 숫자형(앞뒤 공백 삭제) 길이가 0인 문자열로 취급되어 숫자 0이 됩니다. 
+    console.log(" \t \n" - 2); // -2 
+
+    console.log("4. 덧셈 고치기");
+    let a3 = prompt("덧셈할 첫 번째 숫자를 입력해주세요.", 1);
+    let b3 = prompt("덧셈할 두 번째 숫자를 입력해주세요.", 2);
+
+    console.log(a3 + b3); // 12
+
+    // 방법 1
+    let a4 = +prompt("msg", 1);
+    let b4 = +prompt("msg", 2);
+
+    console.log(a4 + b4); // 3
+
+    // 방법 2
+    let a5 = prompt("msg", 1);
+    let b5 = prompt("msg", 2);
+
+    console.log(+a5 + +b5); // 3
   </script>
 </body>
 </html>
